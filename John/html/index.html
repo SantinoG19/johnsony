@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Imagenes/memovie.gif">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="../Proyecto-Programacion/Css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sono:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <title>Home</title>
+</head>
+<body>
+    
+    <div>
+            <ul class="header1">
+                <li class="buscador">
+                    <form action="./search-results.html" method="get">
+                        <input class="buscador_"type="text" name="querys" value="" placeholder="Buscar">
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </li>
+                <li class="logins ult"><a class="urls">LOGIN</a></li>
+                <li class="logins"><a class="urls" href="./genres.html">GENRES</a></li>
+                <li class="logins"><a class="urls" href="./favorite.html">FAVORITES</a></li>
+                <li class="logins ult"><a class="urls">REGISTER</a></li>
+            </ul>
+    </div>
+    
+    </div>
+    <div class="logo">
+        <img class="log"src="../Proyecto-Programacion/Imagenes/memovie.gif" alt="logo">
+        <div>
+            <h1 class="slogan">TU LUGAR PARA </h1>
+            <h1 class="slogan">VER PELICULAS </h1>
+        </div> 
+    </div>
+    <hr color="#FF1776" size="3px">
+    <div class="menu">
+            <h2 class="titulos_seccion">Peliculas Populares</h2>
+        <div>
+            <ul class="lista_elementos_1"></ul>
+        </div>
+    </div>
+    <div class="menu">
+        <h2 class="titulos_seccion">Series Populares</h2>
+    <div>
+        <ul class="lista_elementos_2"></ul>
+    </div>
+</div>
+    <footer>
+        <h3 class="nombres">SANTIAGO VILLARES</h3>
+        <h3 class="nombres">JUSTO GOTTLIEB</h3>
+        <h3 class="nombres">SANTINO GALLI</h3>
+    </footer>
+    
+    <script src="./javascript/search-results.js"></script>
+    <script src="./javascript/index.js"></script>
+    <script src="./javascript/detail-movie.js"></script>
+</body>
+</html>
